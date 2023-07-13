@@ -16,21 +16,21 @@ const Blog = () => {
       <div className="gpt3__blog-container">
         <div className="gpt3__blog-container_groupA">
           <Article imgUrl={blog01} 
-          title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+          title="GPT-3 and Open  AI is the future. Let us explore how it is?"
           date="Sep 26, 2021" />
         </div>
         <div className="gpt3__blog-container_groupB">
           <Article imgUrl={blog02} 
-          title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+          title="GPT-3 and Open  AI is the future. Let us explore how it is?"
           date="Sep 26, 2021" />
           <Article imgUrl={blog03} 
-          title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+          title="GPT-3 and Open  AI is the future. Let us explore how it is?"
           date="Sep 26, 2021" />
           <Article imgUrl={blog04} 
-          title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+          title="GPT-3 and Open  AI is the future. Let us explore how it is?"
           date="Sep 26, 2021" />
           <Article imgUrl={blog05} 
-          title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+          title="GPT-3 and Open  AI is the future. Let us explore how it is?"
           date="Sep 26, 2021" />
         </div>
       </div>

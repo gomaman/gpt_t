@@ -37,12 +37,35 @@
 }
 
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1000px) {
     .gpt3__blog-container {
         flex-direction:column-reverse
     }
-
     .gpt3__blog-container_groupA {
         margin: 2rem 0.5rem;
     }
+    .gpt3__blog-container_groupB .gpt3__blog-container-article-image img {
+        height: 250px;
+    }
+
+    .gpt3__blog-heading h1 {
+
+        font-size:46px;
+        font-weight: 800;
+        line-height: 52px;
+        letter-spacing: -0.04em;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .gpt3__blog-container_groupB {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .gpt3__blog-container_groupA .gpt3__blog-container-article {
+        width: 100%;
+    }
+
+
 }
